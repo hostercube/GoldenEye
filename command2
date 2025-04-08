@@ -1,0 +1,12 @@
+pkg update && pkg upgrade -y
+pkg install python python-pip git -y
+python --version
+git clone https://github.com/rahmatullahburhan/DDOS
+cd DDOS
+ls -l
+ls -l | awk 'NR==6'
+python QLFC-DDOS.py
+python3 QLFC-DDOS.py
+chmod +x QLFC-DDOS.py
+python3 QLFC-DDOS.py
+ls
